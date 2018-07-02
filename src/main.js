@@ -3,6 +3,7 @@ import VueRouter from "vue-router"
 import App from './App.vue'
 import { store } from "./store/store"
 import { routes } from "./routes"
+import 'babel-polyfill';
 
 //router init and usage
 Vue.use(VueRouter);

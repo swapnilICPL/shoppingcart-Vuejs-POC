@@ -51,7 +51,8 @@ export default {
               this.resetData();
           }      
           })
-      .catch(error=>{console.log(error)})
+      .catch(error=>{console.log(error);
+      alert('API Error');})
     },
     resetData(){
         this.email ="";
